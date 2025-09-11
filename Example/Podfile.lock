@@ -1,0 +1,16 @@
+PODS:
+  - OmniAdsSdk (0.1.0)
+
+DEPENDENCIES:
+  - OmniAdsSdk (from `../`)
+
+EXTERNAL SOURCES:
+  OmniAdsSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OmniAdsSdk: 9769a1b575823bea52c731632d5bd59e6583e103
+
+PODFILE CHECKSUM: 7128b6a877161443674eab71e462251c5b1720ee
+
+COCOAPODS: 1.16.2

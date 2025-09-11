@@ -1,0 +1,6 @@
+framework module OmniAdsSdk {
+  umbrella header "OmniAdsSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052236D3CB8C89B6C107AFCB44EC9E4A /* Pods-OmniAdsSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2091225D2B9F508D4D70BF2C6AB874 /* Pods-OmniAdsSdk_Example-dummy.m */; };
+		108E8E40A4945EF720685E12431BC0E5 /* Pods-OmniAdsSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F2C796FD5876ADE961250D45ACF89F /* Pods-OmniAdsSdk_Tests-dummy.m */; };
+		1D9120E7594D3922B5FFB7387F506D53 /* OmniAdsSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17BC303630F05875574AC4B4DA7D8610 /* OmniAdsSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659C0FAB5CD8EA3FFADCFA8F264F8ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		729ADDF5685ED220622F0EB727759FB2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E83AB2F695BB969535A68363FA7BC /* ReplaceMe.m */; };
+		8AD9404F7F45759608B049753A9A5EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		991469C2782DF67B146F0D57BF4E401D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		9A4926D4843C5C2DD3594A63EA6FFF6F /* Pods-OmniAdsSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFA93F726483A108EB8D775B62124F2 /* Pods-OmniAdsSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D132A35FD66AC2E7D265AFC1C6A3C5E5 /* OmniAdsSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B9757D0BE1146DA9ECF56C6D74270 /* OmniAdsSdk-dummy.m */; };
+		EE059475F22DBB617E4D8A5FE56FA4B8 /* Pods-OmniAdsSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC954A54A7855D367720B648E97778AB /* Pods-OmniAdsSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E3A6CC671B4DE6C7B9B5AE7C15A624A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D8E78F68D5B201483EED008A8BF30B;
+			remoteInfo = OmniAdsSdk;
+		};
+		4D41D35DA0B90DF7455E228F0E19DCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2C9E68D69D6B5901E8C12B7096B72C;
+			remoteInfo = "Pods-OmniAdsSdk_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17BC303630F05875574AC4B4DA7D8610 /* OmniAdsSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OmniAdsSdk-umbrella.h"; sourceTree = "<group>"; };
+		1AC34053104001BDADBCF0BD7785B9FD /* Pods-OmniAdsSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OmniAdsSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F4B24C0E42A6E023E3C095375E6209B /* Pods-OmniAdsSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OmniAdsSdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		320D485E846E1D2EF59D7F3E1F28976E /* Pods-OmniAdsSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OmniAdsSdk_Example.modulemap"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		399A6C5B0872743C91F9A59B2BB507AC /* OmniAdsSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OmniAdsSdk.release.xcconfig; sourceTree = "<group>"; };
+		47626B35DEE8C6842DBF44BA6BE0966D /* OmniAdsSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OmniAdsSdk; path = OmniAdsSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B58D453E4B316D99E517AD598F0CA4 /* Pods-OmniAdsSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OmniAdsSdk_Tests.modulemap"; sourceTree = "<group>"; };
+		6AA770F77C43E787F8671C437A298579 /* Pods-OmniAdsSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OmniAdsSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6EAA98CFF99EF9A0E7D3C2655D7E5524 /* OmniAdsSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OmniAdsSdk-prefix.pch"; sourceTree = "<group>"; };
+		7434955943517003A1F016F035FDF3E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C4F903B629767D2FD617C703725F94D /* Pods-OmniAdsSdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OmniAdsSdk_Example"; path = Pods_OmniAdsSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F2C796FD5876ADE961250D45ACF89F /* Pods-OmniAdsSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OmniAdsSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		87AFD67CA30D6CB8312FD5000751A5F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		89FBA9D0B33BB808EFE90A498563E8CB /* OmniAdsSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OmniAdsSdk-Info.plist"; sourceTree = "<group>"; };
+		8A51EEC44B2FCB846677158A1BB8AB13 /* OmniAdsSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OmniAdsSdk.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE9E83AB2F695BB969535A68363FA7BC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OmniAdsSdk/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B61B9757D0BE1146DA9ECF56C6D74270 /* OmniAdsSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OmniAdsSdk-dummy.m"; sourceTree = "<group>"; };
+		B95C0A71C959111D1527090297CA01E3 /* Pods-OmniAdsSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OmniAdsSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BB3D5737BB06DB3B9FD7DB84FA7CE5C8 /* Pods-OmniAdsSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OmniAdsSdk_Example-Info.plist"; sourceTree = "<group>"; };
+		BDFA93F726483A108EB8D775B62124F2 /* Pods-OmniAdsSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OmniAdsSdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		C628AD59C92FF109970DEC5E6CF532E0 /* Pods-OmniAdsSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OmniAdsSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAC86C48BFDFB28CDA7BD202A659920F /* OmniAdsSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OmniAdsSdk.debug.xcconfig; sourceTree = "<group>"; };
+		CC954A54A7855D367720B648E97778AB /* Pods-OmniAdsSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OmniAdsSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E929DB178C122FA779784E41309293F6 /* Pods-OmniAdsSdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OmniAdsSdk_Tests"; path = Pods_OmniAdsSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5094CDB986548BB3E5F11872759FCB /* Pods-OmniAdsSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OmniAdsSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F01441A8552BB9BDCF0A7B4A5C18758B /* OmniAdsSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OmniAdsSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F753808B4B05ACE1AEAA688A8426F478 /* Pods-OmniAdsSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OmniAdsSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA2091225D2B9F508D4D70BF2C6AB874 /* Pods-OmniAdsSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OmniAdsSdk_Example-dummy.m"; sourceTree = "<group>"; };
+		FA32B92074B7F888ABDD4703AAC70FF8 /* Pods-OmniAdsSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OmniAdsSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FCFCD7A793E4C61CE6129D2D376E7B6C /* Pods-OmniAdsSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OmniAdsSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFB951FC8006F447A5D85CC79F56A236 /* Pods-OmniAdsSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OmniAdsSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F540FE665A4EF3BF2CF2C6AA5B2C23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD9404F7F45759608B049753A9A5EBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87B4CB8CADB94872DD15E3FC3B627BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991469C2782DF67B146F0D57BF4E401D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF12B41F862D696E4552C0E2EB9CF272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659C0FAB5CD8EA3FFADCFA8F264F8ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008A371248CBD26103CF6C41EBE51CCE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A51EEC44B2FCB846677158A1BB8AB13 /* OmniAdsSdk.modulemap */,
+				B61B9757D0BE1146DA9ECF56C6D74270 /* OmniAdsSdk-dummy.m */,
+				89FBA9D0B33BB808EFE90A498563E8CB /* OmniAdsSdk-Info.plist */,
+				6EAA98CFF99EF9A0E7D3C2655D7E5524 /* OmniAdsSdk-prefix.pch */,
+				17BC303630F05875574AC4B4DA7D8610 /* OmniAdsSdk-umbrella.h */,
+				CAC86C48BFDFB28CDA7BD202A659920F /* OmniAdsSdk.debug.xcconfig */,
+				399A6C5B0872743C91F9A59B2BB507AC /* OmniAdsSdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OmniAdsSdk";
+			sourceTree = "<group>";
+		};
+		16D32181D23491EAA2FFD4A4F3550FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47626B35DEE8C6842DBF44BA6BE0966D /* OmniAdsSdk */,
+				7C4F903B629767D2FD617C703725F94D /* Pods-OmniAdsSdk_Example */,
+				E929DB178C122FA779784E41309293F6 /* Pods-OmniAdsSdk_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD657F2A061996AF2D19553FC7B56C3 /* Pods-OmniAdsSdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				57B58D453E4B316D99E517AD598F0CA4 /* Pods-OmniAdsSdk_Tests.modulemap */,
+				FCFCD7A793E4C61CE6129D2D376E7B6C /* Pods-OmniAdsSdk_Tests-acknowledgements.markdown */,
+				C628AD59C92FF109970DEC5E6CF532E0 /* Pods-OmniAdsSdk_Tests-acknowledgements.plist */,
+				85F2C796FD5876ADE961250D45ACF89F /* Pods-OmniAdsSdk_Tests-dummy.m */,
+				2F4B24C0E42A6E023E3C095375E6209B /* Pods-OmniAdsSdk_Tests-Info.plist */,
+				CC954A54A7855D367720B648E97778AB /* Pods-OmniAdsSdk_Tests-umbrella.h */,
+				F753808B4B05ACE1AEAA688A8426F478 /* Pods-OmniAdsSdk_Tests.debug.xcconfig */,
+				6AA770F77C43E787F8671C437A298579 /* Pods-OmniAdsSdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-OmniAdsSdk_Tests";
+			path = "Target Support Files/Pods-OmniAdsSdk_Tests";
+			sourceTree = "<group>";
+		};
+		7383F1F572C3A9D3C4DF5A125A9A8478 /* OmniAdsSdk */ = {
+			isa = PBXGroup;
+			children = (
+				AE9E83AB2F695BB969535A68363FA7BC /* ReplaceMe.m */,
+				E1A3D4244CBB63475BB4AD8F44851A44 /* Pod */,
+				008A371248CBD26103CF6C41EBE51CCE /* Support Files */,
+			);
+			name = OmniAdsSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		801726F8B12E819D0F15C6E0F5139E1A /* Pods-OmniAdsSdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				320D485E846E1D2EF59D7F3E1F28976E /* Pods-OmniAdsSdk_Example.modulemap */,
+				EA5094CDB986548BB3E5F11872759FCB /* Pods-OmniAdsSdk_Example-acknowledgements.markdown */,
+				1AC34053104001BDADBCF0BD7785B9FD /* Pods-OmniAdsSdk_Example-acknowledgements.plist */,
+				FA2091225D2B9F508D4D70BF2C6AB874 /* Pods-OmniAdsSdk_Example-dummy.m */,
+				FA32B92074B7F888ABDD4703AAC70FF8 /* Pods-OmniAdsSdk_Example-frameworks.sh */,
+				BB3D5737BB06DB3B9FD7DB84FA7CE5C8 /* Pods-OmniAdsSdk_Example-Info.plist */,
+				BDFA93F726483A108EB8D775B62124F2 /* Pods-OmniAdsSdk_Example-umbrella.h */,
+				FFB951FC8006F447A5D85CC79F56A236 /* Pods-OmniAdsSdk_Example.debug.xcconfig */,
+				B95C0A71C959111D1527090297CA01E3 /* Pods-OmniAdsSdk_Example.release.xcconfig */,
+			);
+			name = "Pods-OmniAdsSdk_Example";
+			path = "Target Support Files/Pods-OmniAdsSdk_Example";
+			sourceTree = "<group>";
+		};
+		A122E96A8554EDEB0C46FD8541990593 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7383F1F572C3A9D3C4DF5A125A9A8478 /* OmniAdsSdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BAAA3B5090B95FFE6613404E938DC385 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				801726F8B12E819D0F15C6E0F5139E1A /* Pods-OmniAdsSdk_Example */,
+				4DD657F2A061996AF2D19553FC7B56C3 /* Pods-OmniAdsSdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A122E96A8554EDEB0C46FD8541990593 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				16D32181D23491EAA2FFD4A4F3550FC5 /* Products */,
+				BAAA3B5090B95FFE6613404E938DC385 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1A3D4244CBB63475BB4AD8F44851A44 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7434955943517003A1F016F035FDF3E2 /* LICENSE */,
+				F01441A8552BB9BDCF0A7B4A5C18758B /* OmniAdsSdk.podspec */,
+				87AFD67CA30D6CB8312FD5000751A5F7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		855430B8BF4D7AD40E0EC46FF70872FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE059475F22DBB617E4D8A5FE56FA4B8 /* Pods-OmniAdsSdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E840A0147AF3D4076C920FA75103457 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9120E7594D3922B5FFB7387F506D53 /* OmniAdsSdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4ABCB5F6E9397604486E3BC4251FC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4926D4843C5C2DD3594A63EA6FFF6F /* Pods-OmniAdsSdk_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E1FAF202730313C15238B1B79BF0AA1 /* Pods-OmniAdsSdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFF182DD7D97E7BE84E5DC4494B2212 /* Build configuration list for PBXNativeTarget "Pods-OmniAdsSdk_Tests" */;
+			buildPhases = (
+				855430B8BF4D7AD40E0EC46FF70872FA /* Headers */,
+				E63BEC5CE8BB73F6C9D14FF4294FABA6 /* Sources */,
+				F87B4CB8CADB94872DD15E3FC3B627BF /* Frameworks */,
+				3FED52B514868E8488DD433AD4CCACEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5A3540DCEBAA22211BBB056D9F2A7D /* PBXTargetDependency */,
+			);
+			name = "Pods-OmniAdsSdk_Tests";
+			productName = Pods_OmniAdsSdk_Tests;
+			productReference = E929DB178C122FA779784E41309293F6 /* Pods-OmniAdsSdk_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F2C9E68D69D6B5901E8C12B7096B72C /* Pods-OmniAdsSdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC375DA6B0E8877E983CBE8F8BE56500 /* Build configuration list for PBXNativeTarget "Pods-OmniAdsSdk_Example" */;
+			buildPhases = (
+				9D4ABCB5F6E9397604486E3BC4251FC4 /* Headers */,
+				6382D8E5C30A636BC473543563B6B57A /* Sources */,
+				5F540FE665A4EF3BF2CF2C6AA5B2C23D /* Frameworks */,
+				2E4101E0835DC485E7A499F96C62E096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E636DAE0118F74F66349C3001537F5DF /* PBXTargetDependency */,
+			);
+			name = "Pods-OmniAdsSdk_Example";
+			productName = Pods_OmniAdsSdk_Example;
+			productReference = 7C4F903B629767D2FD617C703725F94D /* Pods-OmniAdsSdk_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6D8E78F68D5B201483EED008A8BF30B /* OmniAdsSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667FCC1F2D5743F9409BE2F99D4C4705 /* Build configuration list for PBXNativeTarget "OmniAdsSdk" */;
+			buildPhases = (
+				8E840A0147AF3D4076C920FA75103457 /* Headers */,
+				567CBBC03D03FFF009503E80F16E2EC8 /* Sources */,
+				FF12B41F862D696E4552C0E2EB9CF272 /* Frameworks */,
+				459EBB40FC4330989EE08DF8EB810020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OmniAdsSdk;
+			productName = OmniAdsSdk;
+			productReference = 47626B35DEE8C6842DBF44BA6BE0966D /* OmniAdsSdk */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 16D32181D23491EAA2FFD4A4F3550FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6D8E78F68D5B201483EED008A8BF30B /* OmniAdsSdk */,
+				9F2C9E68D69D6B5901E8C12B7096B72C /* Pods-OmniAdsSdk_Example */,
+				4E1FAF202730313C15238B1B79BF0AA1 /* Pods-OmniAdsSdk_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E4101E0835DC485E7A499F96C62E096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED52B514868E8488DD433AD4CCACEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459EBB40FC4330989EE08DF8EB810020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567CBBC03D03FFF009503E80F16E2EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D132A35FD66AC2E7D265AFC1C6A3C5E5 /* OmniAdsSdk-dummy.m in Sources */,
+				729ADDF5685ED220622F0EB727759FB2 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6382D8E5C30A636BC473543563B6B57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052236D3CB8C89B6C107AFCB44EC9E4A /* Pods-OmniAdsSdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63BEC5CE8BB73F6C9D14FF4294FABA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108E8E40A4945EF720685E12431BC0E5 /* Pods-OmniAdsSdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5A3540DCEBAA22211BBB056D9F2A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OmniAdsSdk_Example";
+			target = 9F2C9E68D69D6B5901E8C12B7096B72C /* Pods-OmniAdsSdk_Example */;
+			targetProxy = 4D41D35DA0B90DF7455E228F0E19DCB1 /* PBXContainerItemProxy */;
+		};
+		E636DAE0118F74F66349C3001537F5DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OmniAdsSdk;
+			target = F6D8E78F68D5B201483EED008A8BF30B /* OmniAdsSdk */;
+			targetProxy = 1E3A6CC671B4DE6C7B9B5AE7C15A624A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BC9E76457219D317A59C854E93F3810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95C0A71C959111D1527090297CA01E3 /* Pods-OmniAdsSdk_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OmniAdsSdk_Example/Pods-OmniAdsSdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OmniAdsSdk_Example/Pods-OmniAdsSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62F9428B090835FE7EDAECDCF3040CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC86C48BFDFB28CDA7BD202A659920F /* OmniAdsSdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OmniAdsSdk/OmniAdsSdk-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/OmniAdsSdk/OmniAdsSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OmniAdsSdk/OmniAdsSdk.modulemap";
+				PRODUCT_MODULE_NAME = OmniAdsSdk;
+				PRODUCT_NAME = OmniAdsSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E7337AEC2AD2FC3ED6AAD9208841D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 399A6C5B0872743C91F9A59B2BB507AC /* OmniAdsSdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OmniAdsSdk/OmniAdsSdk-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/OmniAdsSdk/OmniAdsSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OmniAdsSdk/OmniAdsSdk.modulemap";
+				PRODUCT_MODULE_NAME = OmniAdsSdk;
+				PRODUCT_NAME = OmniAdsSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8ED500C8C3204207059D40827900E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB951FC8006F447A5D85CC79F56A236 /* Pods-OmniAdsSdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OmniAdsSdk_Example/Pods-OmniAdsSdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OmniAdsSdk_Example/Pods-OmniAdsSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC21153A7BBD47BE34BD7DADB90B1765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA770F77C43E787F8671C437A298579 /* Pods-OmniAdsSdk_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OmniAdsSdk_Tests/Pods-OmniAdsSdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OmniAdsSdk_Tests/Pods-OmniAdsSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FE42468E78679ABF3A2F1397A9AB88C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F753808B4B05ACE1AEAA688A8426F478 /* Pods-OmniAdsSdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OmniAdsSdk_Tests/Pods-OmniAdsSdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OmniAdsSdk_Tests/Pods-OmniAdsSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667FCC1F2D5743F9409BE2F99D4C4705 /* Build configuration list for PBXNativeTarget "OmniAdsSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F9428B090835FE7EDAECDCF3040CB4 /* Debug */,
+				6E7337AEC2AD2FC3ED6AAD9208841D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC375DA6B0E8877E983CBE8F8BE56500 /* Build configuration list for PBXNativeTarget "Pods-OmniAdsSdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8ED500C8C3204207059D40827900E89 /* Debug */,
+				3BC9E76457219D317A59C854E93F3810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFF182DD7D97E7BE84E5DC4494B2212 /* Build configuration list for PBXNativeTarget "Pods-OmniAdsSdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE42468E78679ABF3A2F1397A9AB88C9 /* Debug */,
+				BC21153A7BBD47BE34BD7DADB90B1765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'OmniAdsSdk_Example' do
+  pod 'OmniAdsSdk', :path => '../'
+
+  target 'OmniAdsSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
